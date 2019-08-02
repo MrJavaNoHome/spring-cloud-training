@@ -5,3 +5,7 @@ spring:
     config:
       label: 06-Security
       #uri: http://localhost:8888
+
+
+hystrix:
+  shareSecurityContext: true
